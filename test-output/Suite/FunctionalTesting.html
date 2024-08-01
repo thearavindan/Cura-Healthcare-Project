@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>TestNG:  FunctionalTesting</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>FunctionalTesting</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 31 17:36:24 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>70 seconds (70017 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testcases.TC007_LogoutTest.logoutTest()'><b>logoutTest</b><br>Test class: testcases.TC007_LogoutTest<br>Parameters: John Doe, ThisIsNotAPassword, positive</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC007_LogoutTest@2462cb01</td></tr>
+<tr>
+<td title='testcases.TC002_InvalidLoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: testcases.TC002_InvalidLoginTest<br>Parameters: john david, abnvj123, negative</td>
+<td></td>
+<td>1</td>
+<td>testcases.TC002_InvalidLoginTest@6ca18a14</td></tr>
+<tr>
+<td title='testcases.TC003_ValidateBookAppointmentTest.ValidateBookAppointmentTest()'><b>ValidateBookAppointmentTest</b><br>Test class: testcases.TC003_ValidateBookAppointmentTest<br>Parameters: John Doe, ThisIsNotAPassword, positive, Seoul CURA Healthcare Center, None, August 2024, 3, General checkup</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC003_ValidateBookAppointmentTest@c667f46</td></tr>
+<tr>
+<td title='testcases.TC004_InvalidBookAppointmentTest.invalidBookAppointmentTest()'><b>invalidBookAppointmentTest</b><br>Test class: testcases.TC004_InvalidBookAppointmentTest<br>Parameters: John Doe, ThisIsNotAPassword, positive</td>
+<td></td>
+<td>1</td>
+<td>testcases.TC004_InvalidBookAppointmentTest@51bd8b5c</td></tr>
+<tr>
+<td title='testcases.TC006_ValidateHistoryWithoutBooking.validateHistoryWithoutBooking()'><b>validateHistoryWithoutBooking</b><br>Test class: testcases.TC006_ValidateHistoryWithoutBooking<br>Parameters: John Doe, ThisIsNotAPassword, positive</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC006_ValidateHistoryWithoutBooking@1b410b60</td></tr>
+<tr>
+<td title='testcases.TC003_ValidateBookAppointmentTest.ValidateBookAppointmentTest()'><b>ValidateBookAppointmentTest</b><br>Test class: testcases.TC003_ValidateBookAppointmentTest<br>Parameters: John Doe, ThisIsNotAPassword, positive, Hongkong CURA Healthcare Center, Medicaid, August 2024, 2, Health checkup</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC003_ValidateBookAppointmentTest@c667f46</td></tr>
+<tr>
+<td title='testcases.TC005_ValidAppoinmentHistoryTest.validAppoinmentHistoryTest()'><b>validAppoinmentHistoryTest</b><br>Test class: testcases.TC005_ValidAppoinmentHistoryTest<br>Parameters: John Doe, ThisIsNotAPassword, positive, Tokyo CURA Healthcare Center, Medicare, August 2024, 1, General checkup, Tokyo CURA Healthcare Center</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC005_ValidAppoinmentHistoryTest@7b50df34</td></tr>
+<tr>
+<td title='testcases.TC001_ValidLoginTest.validLogintest()'><b>validLogintest</b><br>Test class: testcases.TC001_ValidLoginTest<br>Parameters: John Doe, ThisIsNotAPassword, positive</td>
+<td></td>
+<td>1</td>
+<td>testcases.TC001_ValidLoginTest@51bf5add</td></tr>
+<tr>
+<td title='testcases.TC003_ValidateBookAppointmentTest.ValidateBookAppointmentTest()'><b>ValidateBookAppointmentTest</b><br>Test class: testcases.TC003_ValidateBookAppointmentTest<br>Parameters: John Doe, ThisIsNotAPassword, positive, Tokyo CURA Healthcare Center, Medicare, August 2024, 1, General checkup</td>
+<td></td>
+<td>2</td>
+<td>testcases.TC003_ValidateBookAppointmentTest@c667f46</td></tr>
+<tr>
+<td title='testcases.TC002_InvalidLoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: testcases.TC002_InvalidLoginTest<br>Parameters: jane doe, xyzabcuvw, negative</td>
+<td></td>
+<td>1</td>
+<td>testcases.TC002_InvalidLoginTest@6ca18a14</td></tr>
+<tr>
+<td title='testcases.TC002_InvalidLoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: testcases.TC002_InvalidLoginTest<br>Parameters: peter paul, peterpaul123, negative</td>
+<td></td>
+<td>1</td>
+<td>testcases.TC002_InvalidLoginTest@6ca18a14</td></tr>
+<tr>
+<td title='testcases.TC002_InvalidLoginTest.invalidLoginTest()'><b>invalidLoginTest</b><br>Test class: testcases.TC002_InvalidLoginTest<br>Parameters: alexandra, alex@star, negative</td>
+<td></td>
+<td>1</td>
+<td>testcases.TC002_InvalidLoginTest@6ca18a14</td></tr>
+</table><p>
+</body>
+</html>
