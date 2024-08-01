@@ -1,6 +1,7 @@
 # CURA-Healthcare-Project
 ![Screenshot 2024-07-24 232358](https://github.com/user-attachments/assets/4420a5ec-e253-4ee8-8924-969d04fe9cb1)
 The Project is to build a system that can automatically test the major functionalities of the CURA Healthcare service. I have used Data-Driven testing for testing Login functionality with the Data provider and also it covers the main features of Medicare and Medicaid program as well.
+Website url : https://katalon-demo-cura.herokuapp.com/
 
 ## Coding Style:
 * I have used Java Programming language with POM(Page Object Model) design pattern with Selenium framework in this project.
